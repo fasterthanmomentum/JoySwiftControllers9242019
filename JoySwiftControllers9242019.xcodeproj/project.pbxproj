@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88770D69233AF4BD005F3513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88770D68233AF4BD005F3513 /* AppDelegate.swift */; };
+		88770D6B233AF4BD005F3513 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88770D6A233AF4BD005F3513 /* SceneDelegate.swift */; };
+		88770D6D233AF4BD005F3513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88770D6C233AF4BD005F3513 /* ViewController.swift */; };
+		88770D70233AF4BD005F3513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88770D6E233AF4BD005F3513 /* Main.storyboard */; };
+		88770D72233AF4BE005F3513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88770D71233AF4BE005F3513 /* Assets.xcassets */; };
+		88770D75233AF4BE005F3513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88770D73233AF4BE005F3513 /* LaunchScreen.storyboard */; };
+		88770D80233AF4BE005F3513 /* JoySwiftControllers9242019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88770D7F233AF4BE005F3513 /* JoySwiftControllers9242019Tests.swift */; };
+		88770D8B233AF4BF005F3513 /* JoySwiftControllers9242019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88770D8A233AF4BF005F3513 /* JoySwiftControllers9242019UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88770D7C233AF4BE005F3513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88770D5D233AF4BD005F3513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88770D64233AF4BD005F3513;
+			remoteInfo = JoySwiftControllers9242019;
+		};
+		88770D87233AF4BF005F3513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88770D5D233AF4BD005F3513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88770D64233AF4BD005F3513;
+			remoteInfo = JoySwiftControllers9242019;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88770D65233AF4BD005F3513 /* JoySwiftControllers9242019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoySwiftControllers9242019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88770D68233AF4BD005F3513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88770D6A233AF4BD005F3513 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88770D6C233AF4BD005F3513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88770D6F233AF4BD005F3513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88770D71233AF4BE005F3513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88770D74233AF4BE005F3513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88770D76233AF4BE005F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88770D7B233AF4BE005F3513 /* JoySwiftControllers9242019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoySwiftControllers9242019Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88770D7F233AF4BE005F3513 /* JoySwiftControllers9242019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoySwiftControllers9242019Tests.swift; sourceTree = "<group>"; };
+		88770D81233AF4BE005F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88770D86233AF4BF005F3513 /* JoySwiftControllers9242019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoySwiftControllers9242019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88770D8A233AF4BF005F3513 /* JoySwiftControllers9242019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoySwiftControllers9242019UITests.swift; sourceTree = "<group>"; };
+		88770D8C233AF4BF005F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88770D62233AF4BD005F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D78233AF4BE005F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D83233AF4BF005F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88770D5C233AF4BD005F3513 = {
+			isa = PBXGroup;
+			children = (
+				88770D67233AF4BD005F3513 /* JoySwiftControllers9242019 */,
+				88770D7E233AF4BE005F3513 /* JoySwiftControllers9242019Tests */,
+				88770D89233AF4BF005F3513 /* JoySwiftControllers9242019UITests */,
+				88770D66233AF4BD005F3513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88770D66233AF4BD005F3513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88770D65233AF4BD005F3513 /* JoySwiftControllers9242019.app */,
+				88770D7B233AF4BE005F3513 /* JoySwiftControllers9242019Tests.xctest */,
+				88770D86233AF4BF005F3513 /* JoySwiftControllers9242019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88770D67233AF4BD005F3513 /* JoySwiftControllers9242019 */ = {
+			isa = PBXGroup;
+			children = (
+				88770D68233AF4BD005F3513 /* AppDelegate.swift */,
+				88770D6A233AF4BD005F3513 /* SceneDelegate.swift */,
+				88770D6C233AF4BD005F3513 /* ViewController.swift */,
+				88770D6E233AF4BD005F3513 /* Main.storyboard */,
+				88770D71233AF4BE005F3513 /* Assets.xcassets */,
+				88770D73233AF4BE005F3513 /* LaunchScreen.storyboard */,
+				88770D76233AF4BE005F3513 /* Info.plist */,
+			);
+			path = JoySwiftControllers9242019;
+			sourceTree = "<group>";
+		};
+		88770D7E233AF4BE005F3513 /* JoySwiftControllers9242019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88770D7F233AF4BE005F3513 /* JoySwiftControllers9242019Tests.swift */,
+				88770D81233AF4BE005F3513 /* Info.plist */,
+			);
+			path = JoySwiftControllers9242019Tests;
+			sourceTree = "<group>";
+		};
+		88770D89233AF4BF005F3513 /* JoySwiftControllers9242019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				88770D8A233AF4BF005F3513 /* JoySwiftControllers9242019UITests.swift */,
+				88770D8C233AF4BF005F3513 /* Info.plist */,
+			);
+			path = JoySwiftControllers9242019UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88770D64233AF4BD005F3513 /* JoySwiftControllers9242019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88770D8F233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019" */;
+			buildPhases = (
+				88770D61233AF4BD005F3513 /* Sources */,
+				88770D62233AF4BD005F3513 /* Frameworks */,
+				88770D63233AF4BD005F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoySwiftControllers9242019;
+			productName = JoySwiftControllers9242019;
+			productReference = 88770D65233AF4BD005F3513 /* JoySwiftControllers9242019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88770D7A233AF4BE005F3513 /* JoySwiftControllers9242019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88770D92233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019Tests" */;
+			buildPhases = (
+				88770D77233AF4BE005F3513 /* Sources */,
+				88770D78233AF4BE005F3513 /* Frameworks */,
+				88770D79233AF4BE005F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88770D7D233AF4BE005F3513 /* PBXTargetDependency */,
+			);
+			name = JoySwiftControllers9242019Tests;
+			productName = JoySwiftControllers9242019Tests;
+			productReference = 88770D7B233AF4BE005F3513 /* JoySwiftControllers9242019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88770D85233AF4BF005F3513 /* JoySwiftControllers9242019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88770D95233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019UITests" */;
+			buildPhases = (
+				88770D82233AF4BF005F3513 /* Sources */,
+				88770D83233AF4BF005F3513 /* Frameworks */,
+				88770D84233AF4BF005F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88770D88233AF4BF005F3513 /* PBXTargetDependency */,
+			);
+			name = JoySwiftControllers9242019UITests;
+			productName = JoySwiftControllers9242019UITests;
+			productReference = 88770D86233AF4BF005F3513 /* JoySwiftControllers9242019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88770D5D233AF4BD005F3513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "JOY BEST";
+				TargetAttributes = {
+					88770D64233AF4BD005F3513 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					88770D7A233AF4BE005F3513 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 88770D64233AF4BD005F3513;
+					};
+					88770D85233AF4BF005F3513 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 88770D64233AF4BD005F3513;
+					};
+				};
+			};
+			buildConfigurationList = 88770D60233AF4BD005F3513 /* Build configuration list for PBXProject "JoySwiftControllers9242019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88770D5C233AF4BD005F3513;
+			productRefGroup = 88770D66233AF4BD005F3513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88770D64233AF4BD005F3513 /* JoySwiftControllers9242019 */,
+				88770D7A233AF4BE005F3513 /* JoySwiftControllers9242019Tests */,
+				88770D85233AF4BF005F3513 /* JoySwiftControllers9242019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88770D63233AF4BD005F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88770D75233AF4BE005F3513 /* LaunchScreen.storyboard in Resources */,
+				88770D72233AF4BE005F3513 /* Assets.xcassets in Resources */,
+				88770D70233AF4BD005F3513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D79233AF4BE005F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D84233AF4BF005F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88770D61233AF4BD005F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88770D6D233AF4BD005F3513 /* ViewController.swift in Sources */,
+				88770D69233AF4BD005F3513 /* AppDelegate.swift in Sources */,
+				88770D6B233AF4BD005F3513 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D77233AF4BE005F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88770D80233AF4BE005F3513 /* JoySwiftControllers9242019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88770D82233AF4BF005F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88770D8B233AF4BF005F3513 /* JoySwiftControllers9242019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88770D7D233AF4BE005F3513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88770D64233AF4BD005F3513 /* JoySwiftControllers9242019 */;
+			targetProxy = 88770D7C233AF4BE005F3513 /* PBXContainerItemProxy */;
+		};
+		88770D88233AF4BF005F3513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88770D64233AF4BD005F3513 /* JoySwiftControllers9242019 */;
+			targetProxy = 88770D87233AF4BF005F3513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88770D6E233AF4BD005F3513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88770D6F233AF4BD005F3513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88770D73233AF4BE005F3513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88770D74233AF4BE005F3513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88770D8D233AF4BF005F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88770D8E233AF4BF005F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88770D90233AF4BF005F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88770D91233AF4BF005F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88770D93233AF4BF005F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoySwiftControllers9242019.app/JoySwiftControllers9242019";
+			};
+			name = Debug;
+		};
+		88770D94233AF4BF005F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoySwiftControllers9242019.app/JoySwiftControllers9242019";
+			};
+			name = Release;
+		};
+		88770D96233AF4BF005F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoySwiftControllers9242019;
+			};
+			name = Debug;
+		};
+		88770D97233AF4BF005F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH3HUPURJB;
+				INFOPLIST_FILE = JoySwiftControllers9242019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.JoySwiftControllers9242019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoySwiftControllers9242019;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88770D60233AF4BD005F3513 /* Build configuration list for PBXProject "JoySwiftControllers9242019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88770D8D233AF4BF005F3513 /* Debug */,
+				88770D8E233AF4BF005F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88770D8F233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88770D90233AF4BF005F3513 /* Debug */,
+				88770D91233AF4BF005F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88770D92233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88770D93233AF4BF005F3513 /* Debug */,
+				88770D94233AF4BF005F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88770D95233AF4BF005F3513 /* Build configuration list for PBXNativeTarget "JoySwiftControllers9242019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88770D96233AF4BF005F3513 /* Debug */,
+				88770D97233AF4BF005F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88770D5D233AF4BD005F3513 /* Project object */;
+}
