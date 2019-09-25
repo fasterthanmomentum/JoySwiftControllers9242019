@@ -8,8 +8,9 @@
 
 import UIKit
 import SafariServices
+import MessageUI
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MFMailComposeViewControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -100,6 +101,30 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
        
            present(alertController, animated: true, completion: nil)
        }
+    
+    
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) { if let selectedImage =
+        info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageView.image = selectedImage
+        dismiss(animated: true, completion: nil)
+           }
+    
+    }
+    
+    @IBAction func emailButtonTapped(_ sender: UIButton) {
+        if !MFMailComposeViewController.canSendMail() {
+        print("Can not send mail")
+        return
+    }
+    }
+    
+    func mailComposeController(_ controller:
+        MFMailComposeViewControllerDelegate, didFinishWith result:
+        MFMailComposeResult, error: Error?) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
         
         
